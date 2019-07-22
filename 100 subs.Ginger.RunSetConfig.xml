@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="334b3285-8014-42db-bdff-6ad42a464248" ItemType="RunSetConfig" CreatedBy="mariosge" Created="201905271355" GingerVersion="3.2.0.0" Version="12" LastUpdateBy="mariosge" LastUpdate="201907221242" />
+<RunSetConfig Guid="334b3285-8014-42db-bdff-6ad42a464248" Name="100 subs" ParentGuid="00000000-0000-0000-0000-000000000000">
+<GingerRunners>
+<GingerRunner Guid="51cc2de7-8192-441d-bc0b-3a8b68b7d647" Name="Ginger - 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
+<ApplicationAgents>
+<ApplicationAgent AgentName="Chrome Agent" AppName="Google" Guid="56e75748-dc8b-4aa3-bd14-12887b3ecab2" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<BusinessFlowRun BusinessFlowGuid="312ef225-5d8d-4a78-89c9-ad45a867860c" BusinessFlowInstanceGuid="fb06c651-2df8-449e-b8db-04c4f9229994" BusinessFlowIsActive="True" BusinessFlowName="01. ActivateNewSubOnNewAccountWithoutAnyPromotion(English)" Guid="851ac865-4da2-417b-8469-6a868542acba" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="fb6a6d3c-04ff-42ec-883b-c53690570c01" BusinessFlowInstanceGuid="67d79524-b992-4a5c-9681-c30229b1db0c" BusinessFlowIsActive="True" BusinessFlowName="02. ActivateNewSubOnNewAccountWithoutAnyPromotion(Spanish)" Guid="a6ff36cf-943d-4432-b0a7-1e4963377cbc" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="58d7db3e-2bca-4b0c-9fde-7eeeedfa6d48" BusinessFlowInstanceGuid="43b388c7-2d55-4736-b67e-6df458947613" BusinessFlowIsActive="True" BusinessFlowName="03. Add New Line On Existing Ban" Guid="ee9da3d1-0a31-48b5-a537-706446b3e455" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="4802be9d-6f5e-4326-a551-0817e7549ea0" BusinessFlowInstanceGuid="ae91c366-a711-40fa-ba27-7a2db24b7223" BusinessFlowIsActive="True" BusinessFlowName="04. Cancel Account" Guid="98e453d3-e203-41fb-a72b-6e2b3dd67ee4" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="dec55f91-4e91-4f8a-ba76-383d6e2d7c60" BusinessFlowInstanceGuid="d4adf468-bc88-40bc-a000-c0d9124697cc" BusinessFlowIsActive="True" BusinessFlowName="05. Restablish  Account" Guid="f3625248-17dc-4521-8513-dfa10cf1bf98" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="e4aac6a7-ef67-48c5-b38a-8949a03ced39" BusinessFlowInstanceGuid="dc932e84-e755-4e6c-bd34-e33c1ff95426" BusinessFlowIsActive="True" BusinessFlowName="06. Suspend Account" Guid="60aed242-481f-40fd-9be5-9e0d08784140" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="657d39b6-5c70-43c2-b8bb-ae982c9fbb46" BusinessFlowInstanceGuid="b2da7ca2-fb24-4f2d-a74d-08bf45d201e2" BusinessFlowIsActive="True" BusinessFlowName="07. Restore Account" Guid="b5f491be-57cd-41e8-a949-9bbcd0ae3c49" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="35b66609-6674-40f6-93a2-0ac9f31bbdb3" BusinessFlowInstanceGuid="73b816d0-2ac0-4a79-ad51-d847c903a68a" BusinessFlowIsActive="True" BusinessFlowName="08. Suspend Subscriber" Guid="df96a8fd-3254-42ee-bddd-47d0607f563a" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="d6078a33-9b70-40f5-8392-7cc8185b6d2a" BusinessFlowInstanceGuid="9ba89857-7820-412d-a7f9-7197eab03da9" BusinessFlowIsActive="True" BusinessFlowName="09. Restore Subscriber" Guid="7ef623ef-75b6-4b5a-9891-d47e6ab48a0c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="eb4faa65-d980-45f1-8b7b-33b5cef1f80a" BusinessFlowInstanceGuid="0eee1b6c-4459-41e9-a34d-f99e9f577388" BusinessFlowIsActive="True" BusinessFlowName="10. Cancel Subscriber" Guid="4f49feda-68de-40bc-9a3f-f57de8ef0374" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="6d50f332-22d2-4b3f-90f4-c470b4087446" BusinessFlowInstanceGuid="185840a0-40eb-4fa5-9341-cd3c18ba133b" BusinessFlowIsActive="True" BusinessFlowName="11. Restablish Subscriber" Guid="57acf55d-ce6c-4bb9-86db-5b853397bff3" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="364a48fd-ee9f-44b6-a303-ba9f151b9050" BusinessFlowInstanceGuid="e9f702ce-0f6d-4bc1-a19a-10927878d2e1" BusinessFlowIsActive="True" BusinessFlowName="12. Change PricePlan " Guid="e348dab7-a38e-4528-ac7d-0ef146256ff1" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="297b6ace-491c-43aa-a310-ac4d3ea7b79b" BusinessFlowInstanceGuid="c5a5547a-23e0-4acc-a22f-ab0e733de4e4" BusinessFlowIsActive="True" BusinessFlowName="13. Change Device with PricePlan" Guid="e95fe7da-4aae-4ce2-ac0d-aa3385dffb1a" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="9b3cec02-9e40-4276-b49b-6b51087317e0" BusinessFlowInstanceGuid="1830b68f-f585-48df-a048-24c8f41965d8" BusinessFlowIsActive="True" BusinessFlowName="14. Porting Flow" Guid="990bc9cf-4576-469b-ac59-725bd00f6eab" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</BusinessFlowsRunList>
+</GingerRunner>
+</GingerRunners>
+</RunSetConfig></GingerRepositoryItem>
